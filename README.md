@@ -40,20 +40,4 @@ $ sudo apt install socat libreadline-dev
 Each subproblem requires you to write a python script to launch the exploit. For the purpose of assessment, you must assume that the binaries will be run in a remote server, so in particular you have no direct visibility into the program states (so, e.g., you cannot run gdb and inspect the buffer addresses or libc addresses while executing your attacks). To assist you in testing your solution, to make sure that they comply with this requirement, each problem comes with a script to run the binary as a local server application that interacts only through the (localhost) network socket. Your submitted solution scripts must interact with the binaries only through the network sockets. This can be done through `pwntools`'s `remote()` command. You are, however, free to use the `process()` command to interact with the binaries while you are developing your solutions, but in the final submission, the `process()` command must be replaced by the `remote()` command. 
 
 
-# COMP3703 assignment 2
 
-# 程序代做代写 CS编程辅导
-
-# WeChat: cstutorcs
-
-# Email: tutorcs@163.com
-
-# CS Tutor
-
-# Code Help
-
-# Programming Help
-
-# Computer Science Tutor
-
-# QQ: 749389476
